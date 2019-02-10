@@ -11,7 +11,7 @@ import feign.RequestLine;
 /**
  * Created by robertoduessmann on 2/5/19
  */
-@FeignClient(name="weather", url = "${weather.api.url}", configuration = WeatherConfiguration.class)
+@FeignClient(name="weather", url = "${weather.api.url}")
 public interface WeatherClient {
 
 	@RequestLine("GET /weather/{city}")
