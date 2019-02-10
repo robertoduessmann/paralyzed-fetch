@@ -1,4 +1,4 @@
-package com.roberto.paralyzedfetch.client;
+package com.paralyzedfetch.client;
 
 import feign.Contract;
 import org.springframework.context.annotation.Bean;

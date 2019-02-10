@@ -8,7 +8,7 @@
 		<version>2.1.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.roberto</groupId>
+	<groupId>com.paralyzedfetch</groupId>
 	<artifactId>paralyzedfetch</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>paralyzedfetch</name>

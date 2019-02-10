@@ -1,8 +1,7 @@
-package com.roberto.paralyzedfetch.client;
+package com.paralyzedfetch.client;
 
+import com.paralyzedfetch.model.WeatherDetailsDTO;
 import org.springframework.cloud.openfeign.FeignClient;
-
-import com.roberto.paralyzedfetch.model.WeatherDetailsDTO;
 
 import feign.Headers;
 import feign.Param;

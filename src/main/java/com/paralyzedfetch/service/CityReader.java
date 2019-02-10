@@ -1,4 +1,4 @@
-package com.roberto.paralyzedfetch.service;
+package com.paralyzedfetch.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

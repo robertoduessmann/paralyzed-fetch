@@ -1,4 +1,4 @@
-package com.roberto.paralyzedfetch;
+package com.paralyzedfetch;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

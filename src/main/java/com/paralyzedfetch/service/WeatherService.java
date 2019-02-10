@@ -1,6 +1,6 @@
-package com.roberto.paralyzedfetch.service;
+package com.paralyzedfetch.service;
 
-import com.roberto.paralyzedfetch.model.WeatherDTO;
+import com.paralyzedfetch.model.WeatherDTO;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

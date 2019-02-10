@@ -1,4 +1,4 @@
-package com.roberto.paralyzedfetch.model;
+package com.paralyzedfetch.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

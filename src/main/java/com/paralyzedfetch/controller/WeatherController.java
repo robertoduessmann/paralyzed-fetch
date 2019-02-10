@@ -1,6 +1,6 @@
-package com.roberto.paralyzedfetch.controller;
+package com.paralyzedfetch.controller;
 
-import com.roberto.paralyzedfetch.service.WeatherService;
+import com.paralyzedfetch.service.WeatherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
