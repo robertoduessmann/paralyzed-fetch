@@ -32,8 +32,14 @@ public class ParalyzedFetchWeather {
 
     public List<WeatherDetailsDTO> fetchWeather(List<String> cities) {
         List<WeatherDetailsDTO> weathers = Collections.synchronizedList(new ArrayList<>());
-        cities.forEach(city -> executorService.submit(() -> weathers.add(weatherClient.getWeather(city))));
+        cities.forEach(city -> executorService.submit(() -> weathers.add(getWeather(city))));
         executorService.awaitQuiescence(TIMEOUT_MINUTES, TimeUnit.MINUTES);
         return weathers;
+    }
+
+    private WeatherDetailsDTO getWeather(String city) {
+        WeatherDetailsDTO weather = weatherClient.getWeather(city);
+        weather.setCity(city);
+        return weather;
     }
 }
