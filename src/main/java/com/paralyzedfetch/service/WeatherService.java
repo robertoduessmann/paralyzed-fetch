@@ -18,10 +18,7 @@ public class WeatherService {
     private ParalyzedFetchWeather paralyzedFetchWeather;
 
     public List<WeatherDTO> getWeather() {
-        return paralyzedFetchWeather.fetchWeather(cityReader.read())
-                .stream()
-                .map(weather -> new WeatherDTO(weather.getCity(), weather.getTemperature()))
-                .collect(Collectors.toList());
+        return paralyzedFetchWeather.fetchWeather(cityReader.read());
     }
 
 }
